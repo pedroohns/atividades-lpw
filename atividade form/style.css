@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: linear-gradient(to bottom, #9ab5d6, #74777b);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  form {
+    background: white;
+    padding: 30px;
+    width: 100%;
+    border-radius: 8px;
+    max-width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 10px 50px;
+    border: none;
+    background: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  
+  button:hover {
+    background: #45a049;
+  }
+  
+  #mensagem {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
