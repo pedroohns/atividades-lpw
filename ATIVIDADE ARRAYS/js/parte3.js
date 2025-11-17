@@ -7,8 +7,8 @@ const pedidos = [
     { cliente: "Daniel", total: 180 }
 ];
 
-const valorTotal = total.reduce((acumulador, total) => {
-    return acumulador + total;
-});
+const valorTotal = pedidos.reduce((acumulador, pedido) => {
+    return acumulador + pedido.total;
+}, 0);
 
-console.log(valotTotal);
+console.log(valorTotal);
