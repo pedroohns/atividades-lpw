@@ -17,6 +17,7 @@ const produtosCaros = produtos.filter(produto => {
         return false;
     }
 });
+console.log(produtosCaros);
 
 const produtosBaratos = produtos.filter(produto => {
     if (produto.preco <= 60) {
@@ -25,6 +26,7 @@ const produtosBaratos = produtos.filter(produto => {
         return false
     }
 });
+console.log(produtosBaratos);
 
 //olá professor, eu fiz dessa maneira porque acabei "julgando" que a logica necessitava de condicionais, mas depois dei uma lida no material e em outras fontes e percebi que o filter meio que ja espera um dado booleano, entao nao precisa de if e else, da pra fazer de forma mais simplificada.
 
